@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mallard Duck Movement",
+    "section": "",
+    "text": "Lake Constance lies in central Europe, where Germany, Switzerland, and Austria meet. This site explores GPS tracking data for mallards from 2007 to 2017, provided by the PPBDS misc.tutorials project.\nThe recorded fixes range from 47.3°N to 53.9°N and 7.8°E to 23.6°E, showing how far some birds traveled north and east of Lake Constance. Autumn has the most recorded fixes, especially September; fix counts describe the tracking records, not necessarily how often the ducks were moving. Explore the Map and Seasons pages from the navbar to see the locations and monthly patterns."
+  },
+  {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Map",
+    "section": "",
+    "text": "Rows: 83279 Columns: 7\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (2): duck_id, taxon\ndbl  (4): lat, long, speed, heading\ndttm (1): timestamp\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\n\n\n\n# A tibble: 52 × 2\n   duck_id                        n\n   &lt;chr&gt;                      &lt;int&gt;\n 1 2351 - Radolfzell JC 72052 20169\n 2 1806 - Radolfzell JC70792  10139\n 3 2318 - Radolfzell JC 72053  9522\n 4 2312 - Radolfzell JC 72051  7163\n 5 2497 - Radolfzell JC74415   4835\n 6 2339 - Radolfzell JC 72018  4645\n 7 2495 - Radolfzell JC74406   3030\n 8 2501 - Radolfzell JC74418   2861\n 9 2502 - Radolfzell JC74417   2715\n10 2489 - Radolfzell JC74412   2514\n# ℹ 42 more rows\n\n\n\n\n# A tibble: 1 × 4\n  min_latitude max_latitude min_longitude max_longitude\n         &lt;dbl&gt;        &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;\n1         47.3         53.9          7.83          23.6"
+  },
+  {
+    "objectID": "seasons.html",
+    "href": "seasons.html",
+    "title": "Seasons",
+    "section": "",
+    "text": "# A tibble: 12 × 3\n   month_num month         n\n       &lt;int&gt; &lt;chr&gt;     &lt;int&gt;\n 1         1 January    3266\n 2         2 February   4960\n 3         3 March      7524\n 4         4 April      6369\n 5         5 May        3423\n 6         6 June       2842\n 7         7 July       5748\n 8         8 August     9659\n 9         9 September 20977\n10        10 October    9890\n11        11 November   4825\n12        12 December   3796\n\n\n\n\n    Min.  1st Qu.   Median     Mean  3rd Qu.     Max.      NAs \n  0.0000   0.1000   0.2200   0.4156   0.4400 127.4500     2312 \n\n\n\n\nPicking joint bandwidth of 0.0381"
+  }
+]
